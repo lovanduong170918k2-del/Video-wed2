@@ -3,15 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Thư viện công nghệ </title>
+    <title>Video Nền Full Màn Hình</title>
     <style>
-        /* Bắt buộc phải đặt chiều cao 100% để căn giữa dọc hoạt động */
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
         /* CSS quan trọng để video full màn hình và nội dung nằm trên */
         .video-background {
             position: fixed; top: 0; right: 0; bottom: 0; left: 0; 
@@ -24,42 +17,9 @@
             width: auto; height: auto;
             transform: translate(-50%, -50%);
         }
-        /* CĂN CHỈNH: Sử dụng Flexbox để căn giữa tuyệt đối */
         .content { 
-            position: relative; 
-            z-index: 10; 
-            color: white; 
-            /* Dùng Flexbox để căn giữa dọc (justify-content) và ngang (align-items) */
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Căn giữa dọc */
-            align-items: center; /* Căn giữa ngang cho các phần tử bên trong */
-            height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
-            width: 100%;
-        }
-        
-        /* Style cho nút bấm */
-        .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            margin: 10px;
-            font-size: 18px;
-            font-weight: bold;
-            color: white;
-            background-color: #007bff;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-        }
-        .link-text {
-            color: #ccc; 
-            text-decoration: underline;
-            font-size: 16px;
-            margin-top: 10px;
+            position: relative; z-index: 10; 
+            color: white; text-align: center; padding-top: 20vh; 
         }
     </style>
 </head>
@@ -71,10 +31,8 @@
     </div>
 
     <div class="content">
-        <a href="http://hmr.gt.tc" target="_blank" class="btn">Đi tới thư viện</a>
-
-        <a href="https://www.youtube.com/" target="_blank" class="link-text">Xem phim.</a>
+        <h1>Chào mừng đến với Website Của Tôi</h1>
+        <p>Nội dung này nằm trên video nền.</p>
     </div>
 </body>
 </html>
-
