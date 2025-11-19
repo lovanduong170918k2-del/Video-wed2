@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Nền Full Màn Hình</title>
+    <title> Thư viện công nghệ </title>
     <style>
         /* CSS quan trọng để video full màn hình và nội dung nằm trên */
         .video-background {
@@ -21,6 +21,31 @@
             position: relative; z-index: 10; 
             color: white; text-align: center; padding-top: 20vh; 
         }
+        /* Bổ sung: Style cho nút bấm */
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #007bff; /* Màu xanh dương cho nút */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none; /* Bỏ gạch chân link */
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .link-text {
+            /* Màu chữ link nhỏ hơn để dễ phân biệt */
+            color: #ccc; 
+            text-decoration: underline;
+            font-size: 16px;
+            display: block; /* Đảm bảo nó xuống dòng */
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -31,9 +56,9 @@
     </div>
 
     <div class="content">
-        <h1>Chào mừng đến với Website Của Tôi</h1>
-        <p>Nội dung này nằm trên video nền.</p>
+        <a href="http://hmr.gt.tc" target="_blank" class="btn">Đi tới thư viện</a>
+
+        <p><a href="https://www.youtube.com/" target="_blank" class="link-text">Xem phim.</a></p>
     </div>
 </body>
 </html>
-
